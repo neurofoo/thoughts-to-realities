@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts
+build/
+
+# Environment
+.env*
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+*.tsbuildinfo
+next-env.d.ts
+
+# Claude Code
+.claude/
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-journal
+*.db-wal
+
+# Screenshots (local only)
+screenshots/
