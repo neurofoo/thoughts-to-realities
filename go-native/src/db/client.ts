@@ -17,7 +17,7 @@ export interface CurriculumRecord {
   completedAt: string | null;
 }
 
-const db = new Dexie("go-native") as Dexie & {
+const db = new Dexie("thought-protocols") as Dexie & {
   sessions: EntityTable<SessionRecord, "id">;
   curriculum: EntityTable<CurriculumRecord, "week">;
 };

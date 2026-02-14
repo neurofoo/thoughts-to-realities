@@ -40,7 +40,7 @@ export default function Today() {
           {/* Center */}
           <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-8 stagger">
             <p className="font-mono text-xs text-zinc-500 uppercase tracking-[0.3em]">
-              Go Native
+              Thought Protocols
             </p>
 
             <h1 className="mt-4 text-5xl sm:text-7xl font-bold text-center leading-[1.1] text-white">

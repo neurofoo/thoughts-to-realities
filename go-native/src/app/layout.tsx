@@ -16,7 +16,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Go Native",
+  title: "Thought Protocols",
   description: "Contemplative training system",
 };
 

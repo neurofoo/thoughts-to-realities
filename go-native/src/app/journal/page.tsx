@@ -75,7 +75,7 @@ export default function MissionLog() {
               const url = URL.createObjectURL(blob);
               const a = document.createElement("a");
               a.href = url;
-              a.download = `go-native-${new Date().toISOString().split("T")[0]}.json`;
+              a.download = `thought-protocols-${new Date().toISOString().split("T")[0]}.json`;
               a.click();
               URL.revokeObjectURL(url);
             }}
